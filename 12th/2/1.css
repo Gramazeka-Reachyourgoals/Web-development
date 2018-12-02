@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    height: 120px;
+    background-color: green;
+}
+
+.cont{
+    width: 100%;
+    display: flex;
+}
+
+.el1{
+    height: 700px;
+    width: 20%;
+    background-color: #35f0e9;
+}
+
+.el2{
+    height: 700px;
+    width: 80%;
+    background-color: #9a35f0;
+}
+
+.el3{
+    height: 700px;
+    width: 20%;
+    background-color: #ccf035;
+}
+
+footer{
+    height: 120px;
+    background-color: orange;
+}

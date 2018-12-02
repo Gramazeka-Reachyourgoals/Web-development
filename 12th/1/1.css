@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+}
+
+header {
+	padding: 50px;
+	background-color: #034;
+	font-size: 20px;
+	color: rgb(51, 90, 124);
+	font-weight: bolder;
+	height: 20%;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding: 0 100px;
+	border: 1px dashed pink;
+}
+
+li {
+	display: inline;
+	margin: 0 10px;
+}
+
+section {
+	height: 50%;
+	font-weight: bolder;
+	color: aliceblue;
+	font-size: 20px;
+	background-image: radial-gradient(#4e9deb, #f58c40);
+}
+
+.container {
+	display: flex;
+	background-color: white;
+	padding: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: radial-gradient(#4e9deb, #f58c40);
+	/*    width:100%;*/
+}
+
+.element {
+	padding: 80px;
+	background-color: ;
+	border: 1px solid white;
+	border-radius: 5%;
+	height: 300px;
+	align-content: center;
+	flex: 0 300px;
+	/* grow/basis/shrink  */
+}
+
+.e1 {
+	background-image: url(surfboard.png);
+	background-repeat: no-repeat;
+	margin: left;
+}
+
+.e2 {
+	background-image: url(surfing.png);
+	background-repeat: no-repeat;
+}
+
+.e3 {
+	background-image: url(turtle.png);
+	background-repeat: no-repeat;
+	margin: right;
+}
+
+.e4 {
+	background-image: url(beach.png);
+	background-repeat: no-repeat;
+}
+
+.e5 {
+	background-image: url(beach.png);
+	background-repeat: no-repeat;
+}
+
+.e6 {
+	background-image: url(beach.png);
+	background-repeat: no-repeat;
+}
+
+footer {
+	height: 195px;
+	background-color: orange;
+}
