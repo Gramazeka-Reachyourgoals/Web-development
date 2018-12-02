@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    padding: 5px;
+    height: 90%;
+    width: 80%;
+}
+
+header{
+    border: 1px solid black;
+}
+
+nav{
+    border: 1px solid black;
+}
+
+table{
+    padding: 0;
+    margin: 0;
+}
+
+#th1{
+    background: url(img/menu_1.jpg) no-repeat;
+    height: 38px;
+    width: 105px;
+}
+
+#th2{
+    background: url(img/menu.jpg) no-repeat;
+    height: 38px;
+    width: 615px;
+    text-align: left;
+}
+
+#th3{
+    background: url(img/subscribe.jpg) no-repeat;
+    height: 38px;
+    width: 215px;
+}
+
+li{
+    display: inline;
+}
+
+section{
+    border: 1px solid black;
+    width: 30%;
+    float: left;
+}
+
+aside{
+    background: url(img/middle_text.jpg) no-repeat;
+    margin-top: 200px;
+    height: 250px;
+    border: 1px solid black;
+    width: 32%;
+    float: left;
+    padding: 0 25px 0 25px;
+}
+
+footer{
+    border: 1px solid black;
+}

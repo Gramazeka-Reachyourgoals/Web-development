@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Адаптивні блоки на flex</title>
+	<Style> 
+	.flex {
+	display: flex;
+	max-width: 700px; /* Макс ширина блоку */ 
+	margin: 0 auto; /* Вирівнюємо блок по центру */ 
+	font-size: 400%;
+}
+
+.mainitem, .item {
+	 flex-grow: 1; /* Розтягування елементів */
+	background: #b5ced8;
+	display: flex; 
+	justify-content: center; 
+	align-items: center; /* Цифри по центру */
+}
+
+.mainitem {
+	 min-height: 300px; /* Висота основного блоку */
+}
+
+.sideitem {
+	 /*flex: 0 0 150px; */ 
+	flex-basis: 150px; /* Ширина 150 */ 
+	flex-shrink: 0; /* Прибираємо зменшення = 150 */
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	 flex-basis: 50%;
+	min-height: 150px;
+	margin-left: 10px;
+}
+.item: first-child { margin-bottom: 10px;}
+
+/* Менше 600px */ 
+@media screen and (max-width: 600px) {
+	 .flex { flex-wrap: wrap; } /* Для перенесення */
+
+	.sideitem {flex-direction: row; flex-basis: 100%; }
+
+	.item { margin-left: 0; margin-top: 10px; }
+	 .Item: first-child { margin-bottom: 0 ; margin-right: 10px ; }
+}
+
+/* Менше 450px */ 
+@media screen and (max-width: 450px ) {
+	 .sideitem { flex-wrap: wrap; } /* Дозволяємо перенесення */ 
+	.item { flex-basis: 100% ; } /* На всю ширину */ 
+	.item : first-child { margin-right: 0 ; }
+}
+</Style>
+</head>
+<body>
+<Div  class = "flex"> 
+	<div  class = "mainitem"> 1 </div> 
+	<div  class = "sideitem"> 
+		<div  class = "item"> 2 </div > 
+		<div  class = "item"> 3 </div > 
+	</div > 
+</div >
+
+</body>
+</html>

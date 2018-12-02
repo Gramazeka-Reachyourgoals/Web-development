@@ -1,0 +1,40 @@
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+/*    make text in center*/
+    box-sizing: border-box;
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header{
+    height: 20%;
+    border: 1px ridge red; 
+    background-color: brown;
+}
+
+nav{
+    height: 10%;
+    border: 1px ridge red; 
+    background-color: blue;
+}
+
+section{
+    
+    height: 60%;
+    border: 1px ridge red; 
+    background-color: greenyellow;
+}
+
+footer{
+    padding: auto;
+    height: 10%;
+    border: 1px ridge red; 
+    background-color: pink;
+}

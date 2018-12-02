@@ -1,0 +1,39 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header{
+    height: 10%;
+    background-color: brown;
+}
+
+nav{
+    float: left;
+    height: 80%;
+    width: 20%; 
+    background-color: blue;
+}
+
+section{
+    float: right;
+    height: 80%;
+    width: 80%;
+    background-color: greenyellow;
+}
+
+footer{
+    height: 10%; 
+    background-color: magenta;
+    bottom: 0px;
+    position: fixed;
+}
